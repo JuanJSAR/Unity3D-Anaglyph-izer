@@ -1,15 +1,12 @@
 /*~ README.txt
 .---------------------------------------------------------------------------.
 |  Software: Esimple Studios Unity3D Anaglyph-izer Pack                     |
-|   Version: 1.2                                                            |
-|   Compatibility: requires Unity3D Pro (using rendertexture), compatible   |
-|                  with both Unity 2.6.1 and Unity 3.0 (separate shaders)   |
-|   Contact: info ( a t ) esimplestudios . com                              |
-|      Info: http://bit.ly/u3dack                                           |
-|   Support: http://bit.ly/u3dack                                           |
+|   Version: 1.3                                                            |
+|   Compatibility: Works on Unity3D 17.2 or higher.                         |
+|   Contact: info(at) www.esimple.it                                        |
 | ------------------------------------------------------------------------- |
 |     Admin: Francesco Gallorini (project administrator)                    |
-|	  Developers: Francesco Tozzi, Francesco Marcantoni                 |
+|	  Developers: Juan Alvarez, Francesco Tozzi, Francesco Marcantoni   |
 |     Packaging: Gabriele Maidecchi                                         |
 | Copyright (c) 2010, Esimple Studios All Rights Reserved.                  |
 | Based on the original concept by: aNTeNNa trEE (Unity Demo Team)          |
@@ -20,12 +17,6 @@
 | This program is distributed in the hope that it will be useful - WITHOUT  |
 | ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or     |
 | FITNESS FOR A PARTICULAR PURPOSE.                                         |
-| ------------------------------------------------------------------------- |
-| We offer innovative marketing and advertising solutions:                  |
-| - Web3D and Unity3D development finalized to advergames                   |
-|   and 3D configurators                                                    |
-| - Marketing and Social Media Marketing consulting                         |
-| - Web development finalized to dynamic ecommerce solution with 3D support |
 '---------------------------------------------------------------------------'
 */
 
@@ -40,14 +31,15 @@ Then, we cooked all our modifications, and we finally released it under GPL for 
 
 If you are even remotely like us, you'll spend hours firing at stuff in the bootcamp demo like idiots.
 
-WHAT’S NEW (1.2)
+WHAT IS NEW (1.3)
 
-- there’s no need anymore to link the various shaders
-- included a single parametric shader
-- it’s now possible to create an infinite number of materials adjustable with parameters (see below) included configurations for Magenta/Green and Red/Blue modes
-- added a “Use Projection Matrix” flag to optimize the focal distance based on the camera’s Field of View
-- changed the folder structure to be more “Unity-friendly”
-- added a fancy Demo (ONLY 3.x) that we promise will make you jump from your chair. It’s already packed in the “With_Demo” package and available as a project in the Assets/Demo folder
+- The project was updated to the version "2017.2.2f1"
+- The code was corrected and updated. 
+- Update a "Use Projection Matrix" flag to optimize the focal distance based on the camera is Field of View
+- The js code was eliminated for future obsolescence of javascrit in Unity.
+- The demo was corrected to support the new Unity17 "Shaders"
+- changed the folder structure to be more "Unity-friendly"
+- A 3D glasses template is added
 
 INSTALLATION
 
